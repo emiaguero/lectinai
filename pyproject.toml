@@ -1,0 +1,18 @@
+[project]
+name = "LectinAI"
+version = "0.2.0"
+description = "A Streamlit-based application for AI-powered lectin analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Emiliano Agüero", email = "emilianolp120@gmail.com" }
+]
+dependencies = [
+  "streamlit>=1.30.0",
+  "opencv-python>=4.13.0.90",
+  "pillow>=12.1.0",
+  "torchvision>=0.24.1",
+]
+
+[dependency-groups]
+dev = []
