@@ -3,7 +3,7 @@ name = "LectinAI"
 version = "0.2.0"
 description = "A Streamlit-based application for AI-powered lectin analysis"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.15"
 authors = [
     { name = "Emiliano Agüero", email = "emilianolp120@gmail.com" }
 ]
